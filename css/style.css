@@ -872,10 +872,25 @@ h3.my-profession {
   }
 
   .portfolio .portfolio-item-inner .portfolio-img img {
-    height: 400px;
+    height: 300px;
   }
 
+}
 
+@media (max-width:570px) {
+    #footer {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px; */
+    flex-wrap: wrap;
+  }
+
+  .title-first-name ,
+  .title-last-name {
+    font-size: 30px;
+  }
 }
 
 
